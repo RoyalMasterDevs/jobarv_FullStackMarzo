@@ -1,0 +1,28 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+}
+.margin {
+    background-color: blue;
+    border-radius: 7px;
+    width: 100%;
+
+}
+
+.border {
+    background-color: green;
+}
+
+.padding {
+    background-color: red;
+}
+
+p {
+    background-color: white;
+}
