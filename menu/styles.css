@@ -88,20 +88,23 @@
 .change #bar3 {
     transform: translateY(-6px) rotateZ(45deg);
 }
-.change-bg{ 
+
+.change-bg {
     width: 520px;
     height: 460px;
     transform: translate(-61%, -13%)
 }
+
 @media (min-width: 960px) {
-    #menu{
+    #menu {
         display: none;
     }
-     
+
 }
+
 @media (max-width: 959px) {
-     .nav_menu{
+    .nav_menu {
         display: none !important;
-     }
+    }
 }
-     
+
