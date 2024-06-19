@@ -1,5 +1,6 @@
 import { API } from './api.js';
 import * as UI from './interfaz.js';
+// import { formularioBuscar, divMensajes} from './interfaz.js';
 
 UI.formularioBuscar.addEventListener('submit', (e) => {
      e.preventDefault();
